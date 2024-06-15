@@ -7,7 +7,6 @@ Este proyecto es una aplicación web para gestionar clientes y promociones, util
 La estructura del proyecto es la siguiente:
 
 
-
 myproject/
 ├── mybackend/
 │ ├── inventory/
