@@ -6,34 +6,4 @@ Este proyecto es una aplicación web para gestionar clientes y promociones, util
 
 La estructura del proyecto es la siguiente:
 
-
-myproject/
-├── mybackend/
-│ ├── inventory/
-│ │ ├── migrations/
-│ │ ├── static/
-│ │ │ ├── css/
-│ │ │ │ └── styles.css
-│ │ │ ├── js/
-│ │ │ │ └── scripts.js
-│ │ │ └── images/
-│ │ ├── templates/
-│ │ │ └── inventory/
-│ │ │ ├── client_list.html
-│ │ │ ├── client_form.html
-│ │ │ ├── promotion_list.html
-│ │ │ └── promotion_form.html
-│ │ ├── init.py
-│ │ ├── admin.py
-│ │ ├── apps.py
-│ │ ├── models.py
-│ │ ├── tests.py
-│ │ ├── urls.py
-│ │ └── views.py
-│ ├── mybackend/
-│ │ ├── init.py
-│ │ ├── settings.py
-│ │ ├── urls.py
-│ │ └── wsgi.py
-│ ├── manage.py
-└── venv/
+El proyecto myproject está estructurado con un directorio principal mybackend que contiene la configuración del proyecto Django, incluyendo archivos como settings.py, urls.py y wsgi.py, junto con el script de gestión manage.py. Dentro de mybackend, se encuentra la aplicación inventory que maneja la lógica del CRUD para clientes y promociones. La aplicación inventory incluye subdirectorios para migrations, static (con subdirectorios para CSS, JS e imágenes), y templates (con plantillas HTML para listar, crear y editar clientes y promociones). Además, inventory contiene archivos clave como models.py para definir los modelos de datos Client y Promotion, views.py para las vistas del CRUD, urls.py para las rutas, admin.py para la configuración del administrador y apps.py para la configuración de la aplicación. El entorno virtual venv se utiliza para gestionar las dependencias del proyecto.
